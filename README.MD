@@ -16,6 +16,6 @@ The use cases of the language vary from network servers and distributed systems 
 #  prequest 
 Need to know a programing languge.
 # discalimer
-This is not friedly guide.
+This is not beginer friedly guide.
 # variable 
 When writing Go programs, variables must be declared before they can be used. The example below shows how to declare single variables or a group of variables. In the interest of space, the output is displayed as an in-line comment.
