@@ -30,3 +30,4 @@ When a variable is declared it is assigned to the natural “null” value of th
 * types source code file - https://github.com/darkrabel/go_100_lines/blob/main/types.go
 # Arrays
 Storing a number of elements in a list can be achieved using arrays, slices, and maps (Go’s version of hash-maps). We’ll consider all three in the examples below. Arrays are defined by their fixed size and a common data type for all elements. Interestingly, the size of the array is part of the type, meaning arrays cannot grow or shrink, otherwise, they would have a different type. Array elements are accessed using square brackets. The example below shows how to declare an array containing strings and how to loop through its elements.
+source code file - https://github.com/darkrabel/go_100_lines/blob/main/array.go
