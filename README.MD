@@ -19,3 +19,6 @@ Need to know a programing languge.
 This is not beginer friedly guide.
 # variable 
 When writing Go programs, variables must be declared before they can be used. The example below shows how to declare single variables or a group of variables. In the interest of space, the output is displayed as an in-line comment.
+* source code file-1 -https://github.com/darkrabel/go_100_lines/blob/main/variabble.go
+ *source code file-2- https://github.com/darkrabel
+ go_100_lines/blob/main/variable2.go
