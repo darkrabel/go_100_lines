@@ -27,3 +27,6 @@ Go offers a rich collection of types, including numericas, booleans, strings, er
 A byte is an alias for uint8. A rune is an alias for int32. Floats (or floating-point numbers) are either float32 or float64. Complex numbers are also supported and can be represented as complex128 or complex64.
 
 When a variable is declared it is assigned to the natural “null” value of the corresponding type. For example, in var k int, k has the value 0. In var s string, s has the value "“. The example below shows the difference between user-specified types and the default types assigned with a short variable declaration.
+* types source code file - https://github.com/darkrabel/go_100_lines/blob/main/types.go
+# Arrays
+Storing a number of elements in a list can be achieved using arrays, slices, and maps (Go’s version of hash-maps). We’ll consider all three in the examples below. Arrays are defined by their fixed size and a common data type for all elements. Interestingly, the size of the array is part of the type, meaning arrays cannot grow or shrink, otherwise, they would have a different type. Array elements are accessed using square brackets. The example below shows how to declare an array containing strings and how to loop through its elements.
