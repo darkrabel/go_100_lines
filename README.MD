@@ -21,3 +21,9 @@ This is not beginer friedly guide.
 When writing Go programs, variables must be declared before they can be used. The example below shows how to declare single variables or a group of variables. In the interest of space, the output is displayed as an in-line comment.
 * source code file-1 -https://github.com/darkrabel/go_100_lines/blob/main/variabble.go
 * source code file-2- https://github.com/darkrabel go_100_lines/blob/main/variable2.go
+# Types
+Go offers a rich collection of types, including numericas, booleans, strings, error, and the ability to create custom types. Strings are are a sequence of UTF-8 characters enclosed in double-quotes. Numerical types are the most versatile, with 8, 16, 32, and 64-bit variants for both signed (int) and unsigned (uint) integers.
+
+A byte is an alias for uint8. A rune is an alias for int32. Floats (or floating-point numbers) are either float32 or float64. Complex numbers are also supported and can be represented as complex128 or complex64.
+
+When a variable is declared it is assigned to the natural “null” value of the corresponding type. For example, in var k int, k has the value 0. In var s string, s has the value "“. The example below shows the difference between user-specified types and the default types assigned with a short variable declaration.
